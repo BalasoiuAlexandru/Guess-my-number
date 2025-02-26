@@ -37,7 +37,7 @@
         else if (num !== guess ){
              if(score > 0){
              
-             document.querySelector('.message').textContent=num < guess ? 'To High!' : 'To Low!' ;
+             document.querySelector('.message').textContent=num < guess ? 'Too High!' : 'Too Low!' ;
 
               score--
               document.querySelector('.score').textContent = score
